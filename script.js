@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   order.addEventListener("click", () => {
     alert("Order successfully");
   });
-
+ 
   // Update Cart Totals
   function updateCartTotals(items) {
     let subtotal = items.reduce(
